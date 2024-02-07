@@ -72,7 +72,7 @@ class LoggerWarpper:
                 **trace_kwargs):
         if func is not None:
             trace_kwargs['function'] = f"{func.__module__}.{func.__name__}"
-        stack_level = increase_stack_level
+        stack_level = increase_stack_level + 1
         if performance_trace:
             start_time = datetime_utcnow()
         try:

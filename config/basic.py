@@ -3,7 +3,7 @@ import re
 from datetime import datetime, timedelta
 import string
 # ------ basic env config ------ #
-RPOJECT_NAME = "show-my-files server"
+RPOJECT_NAME = "scaffold-flask-rest-server"
 
 # env enums
 ENV_DEBUG:str = 'debug'

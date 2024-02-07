@@ -4,3 +4,4 @@ logs/
 server.db
 
 exec_env/
+.pytest_cache/
