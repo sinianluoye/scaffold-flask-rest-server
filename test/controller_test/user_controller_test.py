@@ -8,7 +8,7 @@ from config import *
 import pytest
 import requests
 import json
-from tests.controller_tests.basic import *
+from test.controller_test.basic import *
 from controller.user_controller import UserController
 from utils.exception import Error
 

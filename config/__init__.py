@@ -24,6 +24,8 @@ if args.env == ENV_DEBUG:
     from .debug import *
 elif args.env == ENV_PROD:
     from .prod import *
+elif args.env == ENV_CONTROLLER_TEST:
+    from .controller_test import *
 else:
     raise Exception(f"unknown environment {args.env}")
 
