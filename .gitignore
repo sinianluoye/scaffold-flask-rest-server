@@ -1,0 +1,6 @@
+*.pyc
+logs/
+**/__pycache__
+server.db
+
+exec_env/
